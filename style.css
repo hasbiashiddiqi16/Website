@@ -511,12 +511,12 @@ html {
 }
 
 .stories-heading {
-    font-size: 5rem;
+    font-size: 8rem;
     text-align: center;
     letter-spacing: 1rem;
     margin-bottom: 3rem;
     margin-top: 0;
-    color: #fff;
+    color: #594528;
     text-shadow: 0 0.1rem 0.2rem var(--grey-color);
     z-index: 2;
 }
@@ -569,7 +569,7 @@ html {
 }
 
 .gifts-heading {
-    font-size: 5rem;
+    font-size: 8rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
@@ -761,6 +761,10 @@ html {
         flex-direction: column;
         align-items: center;
     }
+    
+    gifts-heading {
+        font-size: 5rem;
+    }
 
     .footer-link {
         padding: 0.3rem 2rem;
@@ -794,11 +798,11 @@ html {
     }
 
     .stories-heading {
-        font-size: 3rem;
+        font-size: 5rem;
     }
 
     .gifts-heading {
-        font-size: 4rem;
+        font-size: 5rem;
     }
 
     .gifts-form {
@@ -833,7 +837,7 @@ html {
     }
 
     .stories-heading {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .gifts-heading {
@@ -862,9 +866,6 @@ html {
 @media (max-width: 500px) {
     html {
         font-size: 45%;
-    }
-    .stories-heading {
-        font-size : 2rem;
     }
 }
 
