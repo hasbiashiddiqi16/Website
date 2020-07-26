@@ -863,6 +863,9 @@ html {
     html {
         font-size: 45%;
     }
+    .stories-heading {
+        font-size : 2rem;
+    }
 }
 
 @media (max-width: 300px) {
